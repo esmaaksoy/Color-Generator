@@ -2,8 +2,12 @@ import rgbToHex from "./utilis"
 import { useState } from "react";
 const SingleColor = ({rgb,weight,index}) => {
     const [alert,setAlert] = useState(false);
+    const bcg = rgb.join(",")
   return (
-    <div>SingleColor</div>
+    <article className={`color`} style={{backgroundColor :`rgb(${bcg})`}}>
+         <p className="percent-value">{weight}%</p>
+    </article>
+   
   )
 }
 
