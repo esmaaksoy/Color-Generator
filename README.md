@@ -3,7 +3,7 @@ This application developed with React provides a tool to easily create color pal
 ## Screenshots
 ![Project snapshot](./color.gif) 
 
-[Color Generator Live Page](https://moving-button-esma.netlify.app/)
+[Color Generator Live Page](https://color-generator-esma.netlify.app/)
 
 ## Tech/framework used
 <b>Built with</b> <br>
